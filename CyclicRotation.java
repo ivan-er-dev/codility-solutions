@@ -40,18 +40,4 @@ class CyclicRotation {
 
 		return A;
 	}
-
-	public static void main(String[] args) {
-
-		int arr[] = { 1, 2, 3, 4, 5 };
-
-		CyclicRotation cr = new CyclicRotation();
-
-		int[] rotatedArr = cr.solution(arr, 2);
-
-		for (int i : rotatedArr) {
-			System.out.println(i);
-		}
-
-	}
 }
