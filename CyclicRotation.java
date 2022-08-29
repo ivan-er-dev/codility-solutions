@@ -1,6 +1,5 @@
-package CyclicRotation;
-
 class CyclicRotation {
+	
 	public int[] solution(int[] A, int K) {
 
 		int firstValue = 0;
